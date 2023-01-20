@@ -232,9 +232,10 @@
 }
 
 /* clients css starts */
-.client{
+.client {
     margin-bottom: 100px;
 }
+
 .client .heading {
     font-weight: 600;
     font-size: 38px;
@@ -243,7 +244,8 @@
     text-align: center;
     margin-bottom: 100px;
 }
-.client-cards{
+
+.client-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
@@ -273,9 +275,48 @@
     color: #0C1920;
     margin-top: 15px;
 }
-.client-cards .card h5{
+
+.client-cards .card h5 {
     font-weight: 600;
-    font-size: 14px; 
+    font-size: 14px;
     color: #747474;
-    text-transform: capitalize;  
+    text-transform: capitalize;
+}
+
+/* faq css starts */
+
+.faq .heading {
+    font-weight: 600;
+    font-size: 38px;
+    color: #0A0826;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.faq .accordion-button:not(.collapsed) {
+    font-weight: 500;
+font-size: 20px;
+    color: #383838; 
+	 background-color: #FFFFFF; 
+	 box-shadow: none; 
+}
+
+.faq .accordion-button:focus {
+	box-shadow: none;
+}
+.faq .accordion-button::after {
+	background-image: url(../images/icons/chevron-down-solid.svg);
+}
+.faq .accordion-button {
+    font-weight: 500;
+    font-size: 20px;
+        color: #383838;
+}
+
+.faq .accordion-item{
+    background: #FFFFFF;
+border: 1px solid #D5E5FB;
+border-radius: 5px;
+margin-bottom: 15px;
 }
