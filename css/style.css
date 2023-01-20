@@ -107,3 +107,102 @@
 .about .contents a i{
     padding-left: 10px;
 }
+
+/* package css starts */
+.package{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.package .heading{
+    font-weight: 600;
+    font-size: 38px;
+    color: #0A0826;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.package-items{
+    align-items: center;
+}
+
+.package-items .item{
+    padding: 50px 30px 43px;
+    border-radius: 26px;
+    font-size: 15px;
+    line-height: 22px;
+    color: #848199;
+
+}
+.package-items .item:hover{
+    background-color: #3F87F5;
+    color: #FFFFFF;
+    margin-top: -100px;
+    transition: all linear .4s;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+}
+.package-items .item .badge{
+    float: right;
+    margin-right: -13px;
+    transform: translateY(-69px);
+    border-radius: 10px;
+}
+.package-items .item h4{
+    font-weight: 700;
+    font-size: 36px;
+    color: #231D4F;
+    margin-bottom: 12px;
+}
+.package-items .item:hover h4, .package-items .item:hover h5{
+    color: #FFFFFF;
+    transition: all linear .4s;
+}
+.package-items .item h5{
+    font-weight: 700;
+    font-size: 36px;
+    color: #231D4F;
+    text-transform: capitalize;
+    margin-bottom: 7px;
+}
+.package-items .item p{
+    margin-bottom: 13px !important;
+}
+.package-items .item ul{
+    margin: 0;
+    padding: 0;
+}
+.package-items .item ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.package-items .item ul li:last-child{
+    margin-bottom: 0;
+}
+
+.package-items .item ul li i{
+    color:  #5243C2;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: rgba(82, 67, 194, 0.103693);
+
+}
+.package-items .item:hover ul li i{
+    color: #FFFFFF;
+    transition: all linear .4s;
+}
+.package-items .item a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 13px 0;
+    background-color: hsla(322, 81%, 77%, 0.1);
+    border-radius: 24px;
+    color: #3F87F5;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-top: 24px;
+}
+.package-items .item:hover a{
+    background-color: #FFFFFF;
+    transition: all linear .4s;
+}
