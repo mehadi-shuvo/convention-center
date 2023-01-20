@@ -71,3 +71,39 @@
     background-color: #FFFFFF;
     margin-bottom: 42px;
 }
+
+/* about-us css starts */
+
+.about-us{
+    margin-top: 93px;
+}
+
+.about{
+    align-items: center;
+}
+
+.about .contents h3{
+    font-weight: 700;
+    font-size: 38px;
+    color:  #0A0826; 
+    text-transform: capitalize;   
+}
+.about .contents p{
+    font-weight: 700;
+    font-size: 16px;
+    color:  #6C6C6C; 
+    margin-top: 6px;
+    margin-bottom: 20px;   
+}
+
+.about .contents a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color:#3F87F5;
+    padding: 10px 24px;
+}
+.about .contents a i{
+    padding-left: 10px;
+}
