@@ -1,9 +1,10 @@
 /* navbar css starts */
-.navbar{
+.navbar {
     padding: 0;
     background-color: #E5E5E5;
 }
-.navbar-brand{
+
+.navbar-brand {
     font-size: 22px;
     font-weight: 700;
     color: #3E3E3E;
@@ -11,13 +12,16 @@
     padding-top: 40px;
     padding-bottom: 33px;
 }
-.nav-item{
+
+.nav-item {
     padding-right: 18px;
 }
-.nav-item:last-child{
+
+.nav-item:last-child {
     padding-right: 0;
 }
-.nav-link{
+
+.nav-link {
     font-size: 16px;
     font-weight: 500;
     color: #3E3E3E;
@@ -27,11 +31,12 @@
 
 /* banner css starts */
 
-.carousel-item{
+.carousel-item {
     position: relative;
     z-index: -1;
 }
-.carousel-item .overlay::after{
+
+.carousel-item .overlay::after {
     content: '';
     position: absolute;
     top: 0;
@@ -41,79 +46,84 @@
     background-color: #0000004b;
     z-index: 1;
 }
-.carousel-caption{
+
+.carousel-caption {
     z-index: 2;
 }
 
-.carousel-caption h5{
+.carousel-caption h5 {
     font-weight: 600;
-    font-size: 48px;  
-    color: #FFFFFF;  
+    font-size: 48px;
+    color: #FFFFFF;
     padding: 0 150px;
 }
-.carousel-caption p{
+
+.carousel-caption p {
     font-weight: 300;
-    font-size: 16px;  
-    color: #FFFFFF;  
+    font-size: 16px;
+    color: #FFFFFF;
     padding: 0 280px;
 }
 
-.carousel-caption a{
+.carousel-caption a {
     display: inline-block;
     font-weight: 700;
     font-size: 16px;
-    color: #3F87F5;  
+    color: #3F87F5;
     text-decoration: none;
     text-transform: capitalize;
     padding: 10px 43.5px;
     border-radius: 5px;
-    cursor: pointer;  
+    cursor: pointer;
     background-color: #FFFFFF;
     margin-bottom: 42px;
 }
 
 /* about-us css starts */
 
-.about-us{
+.about-us {
     margin-top: 93px;
 }
 
-.about{
+.about {
     align-items: center;
 }
 
-.about .contents h3{
+.about .contents h3 {
     font-weight: 700;
     font-size: 38px;
-    color:  #0A0826; 
-    text-transform: capitalize;   
-}
-.about .contents p{
-    font-weight: 700;
-    font-size: 16px;
-    color:  #6C6C6C; 
-    margin-top: 6px;
-    margin-bottom: 20px;   
+    color: #0A0826;
+    text-transform: capitalize;
 }
 
-.about .contents a{
+.about .contents p {
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+
+.about .contents a {
     text-decoration: none;
     font-weight: 700;
     font-size: 16px;
     color: #FFFFFF;
-    background-color:#3F87F5;
+    background-color: #3F87F5;
     padding: 10px 24px;
 }
-.about .contents a i{
+
+.about .contents a i {
     padding-left: 10px;
 }
 
 /* package css starts */
-.package{
+.package {
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.package .heading{
+
+.package .heading {
     font-weight: 600;
     font-size: 38px;
     color: #0A0826;
@@ -121,11 +131,12 @@
     text-align: center;
     margin-bottom: 150px;
 }
-.package-items{
+
+.package-items {
     align-items: center;
 }
 
-.package-items .item{
+.package-items .item {
     padding: 50px 30px 43px;
     border-radius: 26px;
     font-size: 15px;
@@ -133,63 +144,75 @@
     color: #848199;
 
 }
-.package-items .item:hover{
+
+.package-items .item:hover {
     background-color: #3F87F5;
     color: #FFFFFF;
     margin-top: -100px;
     transition: all linear .4s;
     box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
 }
-.package-items .item .badge{
+
+.package-items .item .badge {
     float: right;
     margin-right: -13px;
     transform: translateY(-69px);
     border-radius: 10px;
 }
-.package-items .item h4{
+
+.package-items .item h4 {
     font-weight: 700;
     font-size: 36px;
     color: #231D4F;
     margin-bottom: 12px;
 }
-.package-items .item:hover h4, .package-items .item:hover h5{
+
+.package-items .item:hover h4,
+.package-items .item:hover h5 {
     color: #FFFFFF;
     transition: all linear .4s;
 }
-.package-items .item h5{
+
+.package-items .item h5 {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 28px;
     color: #231D4F;
     text-transform: capitalize;
     margin-bottom: 7px;
 }
-.package-items .item p{
+
+.package-items .item p {
     margin-bottom: 13px !important;
 }
-.package-items .item ul{
+
+.package-items .item ul {
     margin: 0;
     padding: 0;
 }
-.package-items .item ul li{
+
+.package-items .item ul li {
     list-style: none;
     margin-bottom: 10px;
 }
-.package-items .item ul li:last-child{
+
+.package-items .item ul li:last-child {
     margin-bottom: 0;
 }
 
-.package-items .item ul li i{
-    color:  #5243C2;
+.package-items .item ul li i {
+    color: #5243C2;
     border-radius: 50%;
     padding: 5px;
     background-color: rgba(82, 67, 194, 0.103693);
 
 }
-.package-items .item:hover ul li i{
+
+.package-items .item:hover ul li i {
     color: #FFFFFF;
     transition: all linear .4s;
 }
-.package-items .item a{
+
+.package-items .item a {
     display: block;
     text-decoration: none;
     text-align: center;
@@ -202,7 +225,57 @@
     text-transform: capitalize;
     margin-top: 24px;
 }
-.package-items .item:hover a{
+
+.package-items .item:hover a {
     background-color: #FFFFFF;
     transition: all linear .4s;
+}
+
+/* clients css starts */
+.client{
+    margin-bottom: 100px;
+}
+.client .heading {
+    font-weight: 600;
+    font-size: 38px;
+    color: #0A0826;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.client-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.client-cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    padding: 20px 53px;
+}
+
+.client-cards .card p {
+    text-align: center;
+    color: #6C6C6C;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.client-cards .card .name {
+    font-weight: 600;
+    font-size: 14px;
+    color: #0C1920;
+    margin-top: 15px;
+}
+.client-cards .card h5{
+    font-weight: 600;
+    font-size: 14px; 
+    color: #747474;
+    text-transform: capitalize;  
 }
