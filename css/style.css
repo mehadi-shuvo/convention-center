@@ -296,27 +296,41 @@
 
 .faq .accordion-button:not(.collapsed) {
     font-weight: 500;
-font-size: 20px;
-    color: #383838; 
-	 background-color: #FFFFFF; 
-	 box-shadow: none; 
+    font-size: 20px;
+    color: #383838;
+    background-color: #FFFFFF;
+    box-shadow: none;
 }
 
 .faq .accordion-button:focus {
-	box-shadow: none;
+    box-shadow: none;
 }
+
 .faq .accordion-button::after {
-	background-image: url(../images/icons/chevron-down-solid.svg);
+    background-image: url(../images/icons/chevron-down-solid.svg);
 }
+
 .faq .accordion-button {
     font-weight: 500;
     font-size: 20px;
-        color: #383838;
+    color: #383838;
 }
 
-.faq .accordion-item{
+.faq .accordion-item {
     background: #FFFFFF;
-border: 1px solid #D5E5FB;
-border-radius: 5px;
-margin-bottom: 15px;
+    border: 1px solid #D5E5FB;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* footer css starts */
+
+footer{
+    background-color: #0B0D17;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 100px;
 }
